@@ -35,7 +35,7 @@ python3 src/app.py
 ```
 
 ### Quick Access (Global Alias)
-To launch Asketon from any directory without manually switching paths, add an alias to your shell configuration (`.bashrc`, `.zshrc`, or `.profile`):
+To launch asketon from any directory without manually switching paths, add an alias to your shell configuration (`.bashrc`, `.zshrc`, or `.profile`):
 
 1. Open your config file:
 ```Bash
@@ -46,13 +46,12 @@ nano ~/.bashrc
 ```Bash
 alias asketon="(cd ~/asketon/src && python3 app.py)"
 ```
-Note: The parentheses ( ) execute the command in a subshell. This ensures that when you exit Asketon, you are automatically returned to your original working directory.
 
 3. Reload the configuration:
 ```Bash
 source ~/.bashrc
 ```
-Now you can simply type `asketon` to manage your life from anywhere.
+Now you can simply type `asketon`.
 
 ### Private Backup & Persistence
 To enable the automated cloud backup system while keeping your data private:
@@ -75,4 +74,3 @@ By default, the iSH emulated environment uses UTC+0.
 The backup module includes a "brute-force" DNS recovery tool to handle unstable Wi-Fi connections in emulated environments.
 * Requirement: Root privileges are required to modify `/etc/resolv.conf`.
 * Issue: If running without sudo or root, the DNS auto-patcher will raise a `Permission Denied error`.
-Tip: To bypass the root requirement, you can manually grant write permissions to the file once: `chmod 666 /etc/resolv.conf`. Use this only in isolated environments like iSH.
