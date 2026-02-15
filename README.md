@@ -1,4 +1,4 @@
-# [a]sketon
+# [a]sketon - Life Tracker in the CLI
 
 <div>
   <img src="asketon.png" width="300" alt="asketon png">
