@@ -1,5 +1,11 @@
 # [a]sketon - Life Tracker in the CLI
 
+Note: This project is still under development. Please read the README in full before cloning or using it.
+
+Asketon is a terminal-based file manager, simply because I don't like ads, paid subscriptions, unnecessary functions (sometimes even paid ones), and an interface that distracts from the main thing. That's why I wanted to create my own tracker that combines everything in one familiar interface and can be accessed from any platform, even from a smart refrigerator.
+
+Feel free to use and improve my code for yourself.
+
 <div>
   <img src="asketon.png" width="300" alt="asketon png">
 </div>
